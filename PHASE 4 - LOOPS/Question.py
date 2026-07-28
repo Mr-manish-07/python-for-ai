@@ -190,15 +190,15 @@ from multiprocessing.spawn import freeze_support
 
 # 16. Write a program to print the Fibonacci series up to N terms.
 
-first = 0
-second = 1
-n = int(input("Enter val : "))
-
-for i in range(n):
-    print(first)
-    temp =second
-    second = first + second
-    first = temp
+# first = 0
+# second = 1
+# n = int(input("Enter val : "))
+#
+# for i in range(n):
+#     print(first)
+#     temp =second
+#     second = first + second
+#     first = temp
 
 #-------------------------------------------------#
 
