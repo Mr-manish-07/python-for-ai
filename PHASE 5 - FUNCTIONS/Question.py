@@ -4,7 +4,6 @@
 # x = int(input("Enter the first number: "))
 # y = int(input("Enter the second number: "))
 # print(add(x,y))
-import math
 
 
 #-------------------------------------------------------------------------#
@@ -97,6 +96,15 @@ import math
 #--------------------------------------------------------------------------------------#
 
 # 10. Write a function to generate the Fibonacci series up to N terms.
+
+n = int(input("Enter n : "))
+first = 0
+second = 1
+for i in range(0,n-2):
+    print(first)
+    temp = second
+    second = first+second
+    first = temp
 
 #--------------------------------------------------------------------------------------#
 
