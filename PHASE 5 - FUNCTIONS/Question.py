@@ -109,21 +109,31 @@
 #--------------------------------------------------------------------------------------#
 
 # 11. Write a function to check whether a number is a palindrome.
-num = int(input("Enter number : "))
-n = num
-rev = 0
-while n > 0 :
-    rev = (rev * 10 ) + (n % 10)
-    n = n//10
-print(num == rev)
+
+# num = int(input("Enter number : "))
+# n = num
+# rev = 0
+# while n > 0 :
+#     rev = (rev * 10 ) + (n % 10)
+#     n = n//10
+# print(num == rev)
 
 #--------------------------------------------------------------------------------------#
 
-# 12. Write a function to calculate the sum of digits of a number.
+# 12. Write a function tao calculate the sum of digits of a number.
 
-#--------------------------------------------------------------------------------------#
+val = int(input("Enter value   : "))
+total = 0
+while val > 0 :
+    total = total + val % 10
+    val = val // 10
+print(total)
+
+#------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
+print("hello")
+
 
 #--------------------------------------------------------------------------------------#
 
