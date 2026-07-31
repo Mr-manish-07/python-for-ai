@@ -138,15 +138,15 @@
 
 # 13. Write a function to reverse the digits of a number.
 
-def rev(num) :
-    sec_num = 0
-    while num > 0 :
-        sec_num = sec_num * 10 + num % 10
-        num = num // 10
-    print(sec_num)
-
-num = int(input("Enter num : "))
-rev(num)
+# def rev(num) :
+#     sec_num = 0
+#     while num > 0 :
+#         sec_num = sec_num * 10 + num % 10
+#         num = num // 10
+#     print(sec_num)
+#
+# num = int(input("Enter num : "))
+# rev(num)
 
 #--------------------------------------------------------------------------------------#
 
