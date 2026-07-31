@@ -109,13 +109,13 @@
 #--------------------------------------------------------------------------------------#
 
 # 11. Write a function to check whether a number is a palindrome.
-num = int(input("Enter number : "))
-n = num
-rev = 0
-while n > 0 :
-    rev = (rev * 10 ) + (n % 10)
-    n = n//10
-print(num == rev)
+# num = int(input("Enter number : "))
+# n = num
+# rev = 0
+# while n > 0 :
+#     rev = (rev * 10 ) + (n % 10)
+#     n = n//10
+# print(num == rev)
 
 #--------------------------------------------------------------------------------------#
 
@@ -124,6 +124,14 @@ print(num == rev)
 #--------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
+num =int(input("Enter val : "))
+rev = 0
+while num > 0 :
+    rev = rev * 10 + num % 10
+    num = num // 10
+
+print(rev)
+
 
 #--------------------------------------------------------------------------------------#
 
