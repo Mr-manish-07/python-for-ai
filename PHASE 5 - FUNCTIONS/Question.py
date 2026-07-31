@@ -109,7 +109,6 @@
 #--------------------------------------------------------------------------------------#
 
 # 11. Write a function to check whether a number is a palindrome.
-
 # num = int(input("Enter number : "))
 # n = num
 # rev = 0
@@ -120,7 +119,7 @@
 
 #--------------------------------------------------------------------------------------#
 
-# 12. Write a function tao calculate the sum of digits of a number.
+# 12. Write a function to calculate the sum of digits of a number.
 
 val = int(input("Enter value   : "))
 total = 0
@@ -132,7 +131,13 @@ print(total)
 #------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
-print("hello")
+num =int(input("Enter val : "))
+rev = 0
+while num > 0 :
+    rev = rev * 10 + num % 10
+    num = num // 10
+
+print(rev)
 
 
 #--------------------------------------------------------------------------------------#
