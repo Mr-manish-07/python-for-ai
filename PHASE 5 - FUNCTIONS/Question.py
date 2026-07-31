@@ -121,28 +121,28 @@
 
 # 12. Write a function to calculate the sum of digits of a number.
 
-val = int(input("Enter value   : "))
-total = 0
-while val > 0 :
-    total = total + val % 10
-    val = val // 10
-print(total)
+# val = int(input("Enter value   : "))
+# total = 0
+# while val > 0 :
+#     total = total + val % 10
+#     val = val // 10
+# print(total)
 
 #------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
-num =int(input("Enter val : "))
-rev = 0
+num = int(input("Enter num : "))
+sec_num = 0
 while num > 0 :
-    rev = rev * 10 + num % 10
+    sec_num = sec_num * 10 + num % 10
     num = num // 10
-
-print(rev)
+print(sec_num)
 
 
 #--------------------------------------------------------------------------------------#
 
 # 14. Write a function to calculate the average of a list of numbers.
+
 
 #--------------------------------------------------------------------------------------#
 
