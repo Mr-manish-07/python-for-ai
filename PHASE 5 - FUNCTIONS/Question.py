@@ -131,22 +131,28 @@
 #------------------------------------------------------------------------------------#
 
 # 13. Write a function to reverse the digits of a number.
-num = int(input("Enter num : "))
-sec_num = 0
-while num > 0 :
-    sec_num = sec_num * 10 + num % 10
-    num = num // 10
-print(sec_num)
-
+# num = int(input("Enter num : "))
+# sec_num = 0
+# while num > 0 :
+#     sec_num = sec_num * 10 + num % 10
+#     num = num // 10
+# print(sec_num)
 
 #--------------------------------------------------------------------------------------#
 
 # 14. Write a function to calculate the average of a list of numbers.
-
+final_num = 0
+while True:
+    num = int(input("Enter val : "))
+    if num < 0 :
+        break
+    final_num = (final_num + num)//2
+print("Average is : " , final_num)
 
 #--------------------------------------------------------------------------------------#
 
 # 15. Write a function to calculate the area of different shapes.
+
 
 #--------------------------------------------------------------------------------------#
 
